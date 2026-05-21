@@ -3,3 +3,4 @@ ecdsa
 utils
 base58
 pycryptodome
+coincurve
