@@ -11,7 +11,8 @@ Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02B
 Code works on Python 3.9 or newer.
 All dependencies included in code. 
 
-calculate.py  - count d (private key) if you have k-nonce R S Z 
+calculate.py  - count d (private key) if you have k-nonce R S Z. It's a trivial.
+vulnerabilityR.py - 
 
 
 
