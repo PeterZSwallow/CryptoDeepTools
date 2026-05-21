@@ -7,53 +7,25 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 
 
 Script [breakECDSA.py](https://github.com/demining/CryptoDeepTools/blob/main/02BreakECDSAcryptography/breakECDSA.py) reconstructs the signed message for each to find the Z value. The result is returned as R, S, Z, PUBKEY for each of the inputs present in the data in the "RawTX.json" file.
+MAIN CHANGES - Code works on Python 3.9 or newer.
+All dependencies included in code. 
 
----
 
-* Tutorial: https://youtu.be/BYd-cuFRZmM
-* Tutorial: https://cryptodeep.ru/break-ecdsa-cryptography
-* Open Our [Terminal for Google Colab](https://github.com/demining/TerminalGoogleColab)
-* Create a folder "Blockchain" 
-* Run script [getsign.sh](https://github.com/demining/CryptoDeepTools/blob/main/02BreakECDSAcryptography/getsign.sh)
 
 ---
 
 ## Commands:
 
-    git clone https://github.com/demining/CryptoDeepTools.git
+pip install ecdsa
     
-    cd CryptoDeepTools/02BreakECDSAcryptography/
-    
-    sudo apt install python2-minimal
-    
-    wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-    
-    sudo python2 get-pip.py
-    
-    pip2 install -r requirements.txt
 
-    chmod +x getsign.sh
-    
-    ./getsign.sh
 
 
 
 ---
 ### All content will be saved in a file: "signatures.json"
 
----
-
-
-# [CryptoDeepTools](https://github.com/demining/CryptoDeepTools/)
-
-
----
 
 
 
 
-
-|  | Donation Address |
-| --- | --- |
-| ♥ __BTC__ | 1Lw2gTnMpxRUNBU85Hg4ruTwnpUPKdf3nV |
-| ♥ __ETH__ | 0xaBd66CF90898517573f19184b3297d651f7b90bf |
