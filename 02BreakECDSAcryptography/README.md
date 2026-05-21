@@ -6,7 +6,7 @@ Crypto Deep Tools a set of scripts for detailed cryptanalysis of the Blockchain 
 ## Analyze the data from the file "RawTX.json" (which we received in [01BlockchainGoogleDrive](https://github.com/demining/CryptoDeepTools/tree/main/01BlockchainGoogleDrive))
 
 
-Script [breakECDSA.py]([https://github.com/PeterZSwallow/CryptoDeepTools/tree/main/02BreakECDSAcryptography/breakECDSA.py]) reconstructs the signed message for each to find the Z value. The result is returned as R, S, Z, PUBKEY for each of the inputs present in the data in the "RawTX.json" file.
+Script [breakECDSA.py]([[https://github.com/PeterZSwallow/CryptoDeepTools/tree/main/02BreakECDSAcryptography/breakECDSA.py](https://github.com/PeterZSwallow/CryptoDeepTools/blob/main/02BreakECDSAcryptography/breakECDSA.py)]) reconstructs the signed message for each to find the Z value. The result is returned as R, S, Z, PUBKEY for each of the inputs present in the data in the "RawTX.json" file.
 ## MAIN CHANGES 
 Code works on Python 3.9 or newer.
 All dependencies included in code. 
