@@ -18,7 +18,7 @@ All dependencies included in code.
 
 
 [vulnerabilityR.py](https://github.com/PeterZSwallow/CryptoDeepTools/blob/main/02BreakECDSAcryptography/vulnerabilityR.py) - count d (private key) if you have same R in 2 different signatures. (Not low S and high S).
-</br>Mathematical Context: This script exploits a critical ECDSA implementation flaw: nonce reuse. Cryptographic standards strictly require the nonce k to be unpredictable and unique per signature. Reusing it leaks the private key.
+</br><b>Mathematical Context:</b> This script exploits a critical ECDSA implementation flaw: nonce reuse. Cryptographic standards strictly require the nonce k to be unpredictable and unique per signature. Reusing it leaks the private key.
 </br>Formula Breakdown: The one-liner (z1*s2 - z2*s1) * modinv(r*(s1-s2), p) % p directly solves for the private key d without needing to explicitly compute k first.
 </br>Python's Modulo: Python's % operator correctly handles negative intermediate values (e.g., s1 - s2), ensuring the final result stays within the valid [0, p-1] range.
 
